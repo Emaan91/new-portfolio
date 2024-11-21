@@ -10,7 +10,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- Sidebar -->
@@ -18,38 +17,25 @@
       <nav>
         <ul>
           <li>
-            <a
-              href="#welcome"
-              data-aos="fade-left"
-              data-aos-duration="1000"
-              data-aos-delay="1000"
+            <a class="fade-left" style="animation-delay: 1000ms" href="#welcome"
               ><span id="welcome-link">Welcome</span></a
             >
           </li>
           <li>
             <a
+              class="fade-left"
+              style="animation-delay: 1200ms"
               href="#projects"
-              data-aos="fade-left"
-              data-aos-duration="1000"
-              data-aos-delay="1200"
               ><span id="projects-link">My Projects</span></a
             >
           </li>
           <li>
-            <a
-              href="#skills"
-              data-aos="fade-left"
-              data-aos-duration="1000"
-              data-aos-delay="1400"
+            <a class="fade-left" style="animation-delay: 1400ms" href="#skills"
               ><span id="skills-link">My Skills</span></a
             >
           </li>
           <li>
-            <a
-              href="#contact"
-              data-aos="fade-left"
-              data-aos-duration="1000"
-              data-aos-delay="1600"
+            <a class="fade-left" style="animation-delay: 1600ms" href="#contact"
               ><span id="contact-link">Get in Touch</span></a
             >
           </li>
@@ -61,8 +47,8 @@
     <div class="content">
       <!-- Intro Section -->
       <section class="intro" id="welcome">
-        <h1 data-aos="fade-up" data-aos-duration="1000">Hi, I'm Emaan!</h1>
-        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <h1 class="fade-up">Hi, I'm Emaan!</h1>
+        <p class="fade-up" style="animation-delay: 200ms">
           <span
             >A passionate Front-End Developer building modern web
             experiences.</span
@@ -70,46 +56,36 @@
         </p>
         <a
           href="#projects"
-          class="button"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="400"
+          class="button fade-up"
+          style="animation-delay: 400ms"
           >View my work</a
         >
         <a
           href="https://www.upwork.com/freelancers/~01525e85eb3163e499"
           target="_blank"
-          class="icon"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="600"
+          class="icon fade-up"
+          style="animation-delay: 600ms"
           ><i class="fa-brands fa-upwork"></i
         ></a>
         <a
           href="https://github.com/Emaan91"
           target="_blank"
-          class="icon"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="800"
+          class="icon fade-up"
+          style="animation-delay: 800ms"
           ><i class="fab fa-github"></i
         ></a>
         <a
           href="https://www.linkedin.com/in/emaan-arshad-82134b219/"
           target="_blank"
-          class="icon"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="1000"
+          class="icon fade-up"
+          style="animation-delay: 1000ms"
           ><i class="fab fa-linkedin"></i
         ></a>
         <a
           href="https://stackoverflow.com/users/27587403/emaan-arshad"
           target="_blank"
-          class="icon"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="1200"
+          class="icon fade-up"
+          style="animation-delay: 1200ms"
           ><i class="fa-brands fa-stack-overflow"></i
         ></a>
       </section>
@@ -299,9 +275,5 @@
 
     <!-- JavaScript -->
     <script src="JS/script.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>
